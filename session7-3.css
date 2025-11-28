@@ -1,0 +1,72 @@
+/* .parent {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+ 
+.child {
+    background-color: turquoise;
+    width: calc(25% - 20);
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    boder-radius: 2px;
+
+} */
+
+
+/* .parent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 10px;
+    margin: 0;
+    align-content: center;
+    margin: 0;
+}
+
+.child {
+    background-color: green;
+    font-size: 20px;
+    height: 100px;
+    width: calc(25% - 20px);
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    border-radius: 2px;
+} */
+
+.parent {
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.child {
+    background-color: green;
+    height: 100px;
+    width: calc(25% - 20px);
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    border-radius: 2px;
+}
+
+.grid {
+    width: calc(50% - 20px);
+}
+
+/* Gộp cột hoặc là sẽ dãn cột ? */

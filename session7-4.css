@@ -1,0 +1,34 @@
+.header {
+    
+    background-color: dodgerblue;
+}
+
+.sidebar {
+    height: calc(100vh - 37px);
+    background-color: darkseagreen;
+}
+.content {
+    height: clac(100vh - 37px);
+    background-color: firebrick;
+}
+
+/* .sidebar .content {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+} */
+
+.dou {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.footer {
+    background-color: blueviolet;
+}
