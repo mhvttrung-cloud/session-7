@@ -1,0 +1,53 @@
+.header {
+    background-color: rgb(96, 94, 94);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 50px;
+}
+
+.myblog {
+    margin: 20px;
+}
+
+.home-main {
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+    margin: 10px;
+    
+}
+
+.home {
+    padding: 5px;
+}
+
+.main {
+
+}
+
+.content-1 {
+    background-color: rgba(61, 61, 61, 0.2);
+    border-radius: 2px;
+
+}
+
+.button {
+    color: rgb(34, 138, 217);
+    border: 0px;
+    background-color: rgba(206, 3, 3, 0);
+
+}
+
+.content-2 {
+
+}
+
+.footer {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(214, 197, 197);
+    background-color: rgb(52, 46, 46);
+}
