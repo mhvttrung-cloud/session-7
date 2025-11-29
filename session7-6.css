@@ -15,20 +15,21 @@
     display: flex;
     flex-direction: row;
     line-height: 25px;
-    margin: 10px;
-    
+
 }
 
 .home {
     padding: 5px;
+    margin: 10px;
 }
 
 .main {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .content-1 {
-    background-color: rgba(61, 61, 61, 0.2);
+    background-color: rgba(61, 61, 61, 0.1);
     border-radius: 2px;
 
 }
@@ -41,7 +42,7 @@
 }
 
 .content-2 {
-
+    background-color: rgba(242, 242, 242, 0.6)
 }
 
 .footer {
