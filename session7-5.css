@@ -1,0 +1,38 @@
+.box-big {
+    background-color: darkgray;
+
+}
+
+.box .box-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    width: 100px;
+    height: clac(50% - 20px);
+    display: flex;
+    
+}
+
+.box-grid {
+    background-color: rgb(rgb(26, 7, 63), green, blue);
+}
+
+/* .big-top {
+    ?
+    } */
+    
+.child-top {
+    align-items: center;
+    width: 100px;
+    line-height: 100px;
+}
+
+.BOX-bottom {
+
+}
+
+.big-down {
+
+}
+

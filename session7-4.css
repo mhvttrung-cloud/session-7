@@ -1,34 +1,31 @@
+* {
+    padding: 0px;
+}
 .header {
-    
     background-color: dodgerblue;
 }
 
 .sidebar {
-    height: calc(100vh - 37px);
+    width: 30%;
     background-color: darkseagreen;
 }
 .content {
-    height: clac(100vh - 37px);
     background-color: firebrick;
+    width: 70%;
 }
 
 /* .sidebar .content {
     width: 500px;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-} */
-
-.dou {
+    } */
+    
+.display-flex {
     display: flex;
-    flex-direction: row;
+    height: 100vh;
 }
 
-
-
-
 .footer {
+    margin-top: 20px;
     background-color: blueviolet;
 }
