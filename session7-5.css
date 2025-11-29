@@ -1,38 +1,41 @@
-.box-big {
+.container {
     background-color: darkgray;
-
+    padding: 20px;
+    display: flex;
+    text-align: center;
 }
 
-.box .box-1 {
+.trai {
     display: flex;
-    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.big-box {
+    width: calc(100% - 20px);
+    /* Trừ đi 20px của padding trong phần container */
+    background-color: aquamarine;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phai {
+    width: calc(50% - 20px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
     gap: 20px;
     text-align: center;
-    width: 100px;
-    height: clac(50% - 20px);
+}
+
+.box-small {
     display: flex;
-    
-}
-
-.box-grid {
-    background-color: rgb(rgb(26, 7, 63), green, blue);
-}
-
-/* .big-top {
-    ?
-    } */
-    
-.child-top {
+    justify-content: center;
     align-items: center;
-    width: 100px;
-    line-height: 100px;
+    /* Muốn căn ra giữa thì 3 câu lệnh này là "combo" */
+    background-color: aquamarine;
 }
-
-.BOX-bottom {
-
-}
-
-.big-down {
-
-}
-
